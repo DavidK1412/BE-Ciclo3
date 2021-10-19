@@ -1,0 +1,1 @@
+web: gunicorn adminShopProject.wsgi
