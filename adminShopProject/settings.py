@@ -29,8 +29,7 @@ SECRET_KEY = 'django-insecure-jw15%nf5ky=cbaz)v(l0@*e68==nww6!p9(+!rwlk*c3sm%^8)
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
+CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
     'adminAuth',
+    'corsheaders',
 ]
 
 SIMPLE_JWT = {
@@ -68,6 +68,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 '''
 Rest_Framework config
