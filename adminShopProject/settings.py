@@ -107,10 +107,10 @@ WSGI_APPLICATION = 'adminShopProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd4jtea4k6ul64v',
-        'USER': 'wahgqtrfpahatc',
-        'PASSWORD': '5e92b408155d9f09c0dd8747956061dcd83f0247e74171f528961afbf8edd935',
-        'HOST': 'ec2-3-231-40-72.compute-1.amazonaws.com',
+        'NAME': 'd21ic89l1o88ho',
+        'USER': 'vdebfusmvgbslu',
+        'PASSWORD': '296bd9aa913caff0f54bcf9fd4b2f6897fbe4664e88452f7c4fe947c75f1d4be',
+        'HOST': 'ec2-44-209-158-64.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
